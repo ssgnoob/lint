@@ -1,0 +1,30 @@
+{
+	"name": "@souche/jupiter-lint",
+	"version": "1.0.4",
+	"description": "家选C代码检验",
+	"main": "./lib/index.js",
+	"bin": {
+		"jupiter-lint": "./bin/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "node -e \"try{require('./bin/postInstall')}catch(e){}\""
+	},
+	"keywords": [
+		"lint"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@git.souche-inc.com:jupiter-f2e/jupiter-lint.git"
+	},
+	"author": "ssg",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"commander": "^4.1.0",
+		"core-js": "^3.6.2",
+		"find-parent-dir": "^0.3.0",
+		"pify": "^4.0.1",
+		"staged-git-files": "^1.2.0"
+	}
+}
