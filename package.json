@@ -1,6 +1,6 @@
 {
 	"name": "@souche/jupiter-lint",
-	"version": "1.0.4",
+	"version": "1.0.4-debug2",
 	"description": "家选C代码检验",
 	"main": "./lib/index.js",
 	"bin": {
